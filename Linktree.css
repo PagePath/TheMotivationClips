@@ -1,0 +1,180 @@
+
+body {
+background-size: 100% 100%;
+background-image: url('httpss://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR0YP5xuMEw-1mAwfe0l3ARPZx4PmH2ydaRg&usqp=CAU');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+font-family: Arial, sans-serif;
+background-color: black;
+margin: 0;
+padding: 0;
+}
+
+body:hover {
+background-color: none;
+transition: background-color 2s ease;
+}
+
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+z-index: 0;
+}
+
+.box {
+background      6: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 438, 0.2));
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 50px;
+border: 1px solid white;
+margin: 2%;
+padding: 0px;
+text-align: center;
+width: 100%;
+z-index: 0;
+transform: scale(1);
+transition: transform 0.5s;
+}
+
+
+.box:hover {
+  transform: scale(1.05);
+  background: white;
+  border: 1px solid blue;
+}
+
+
+.box a, .pbox a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.box a:hover {
+color: black;
+}
+
+.box a:focus {
+  outline: none;
+  }
+
+.icon-container {
+align-self: flex-start;
+}
+
+.fab {
+  font-size: 40px;
+  padding: 5px;
+  margin-left: 5px;
+  color: ;
+  }
+
+.text-center {
+flex-grow: 1;
+display: flex;
+justify-content: center;
+margin-right: 45px;
+}
+
+
+.pbox {
+background: none;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+border: 1px solid white;
+margin: 2%;
+padding: 0px;
+text-align: center;
+width: 100%;
+z-index: 0;
+transform: scale(1);
+transition: transform 0.5s;
+}
+
+.pbox img {
+border-radius: 10px;
+
+}
+
+ .wox {
+background: linear-gradient(145deg, blue, darkblue, black, black);
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 50px;
+border: 1px solid white;
+margin: 2%;
+padding: 0px;
+text-align: center;
+width: 100%;
+z-index: 0;
+transform: scale(1);
+transition: transform 0.5s;
+}
+
+.wox a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.wox:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, blue, red);
+}
+
+.tg {
+  height: 45px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: px;
+}
+
+@keyframes pulse1 {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.wox {
+  animation: pulse1 1s ease-in-out infinite;
+}
+
+.pimg {
+  height: 70px;
+  border-radius: 50%;
+  padding: px;
+  border: 1px solid white
+}
+
+.pro {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
